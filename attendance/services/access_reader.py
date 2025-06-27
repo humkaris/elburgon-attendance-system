@@ -1,7 +1,11 @@
 import pyodbc
 import datetime
 from django.utils import timezone
+from django.utils.timezone import make_aware
 from attendance.models import Student, AttendanceLog
+import sys
+print(sys.path)
+print("Module path:", __name__)
 
 ACCESS_DB_PATH = r"D:\elburgon_attendance\att2000.mdb"  # Adjusted path
 
@@ -24,7 +28,7 @@ def fetch_access_logs():
     count = 0
     for row in cursor.fetchall():
         admission_number = str(row.Badgenumber).strip()
-        timestamp = row.CHECKTIME
+        timestamp = make_aware(row.CHECKTIME)
         status = 'IN' if row.CHECKTYPE.upper() == 'I' else 'OUT'
 
         try:

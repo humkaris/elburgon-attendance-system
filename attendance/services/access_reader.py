@@ -38,7 +38,7 @@ def fetch_access_logs():
             if not AttendanceLog.objects.filter(student=student, timestamp=timestamp, status=status).exists():
                 AttendanceLog.objects.create(
                     student=student,
-                    timestamp=timezone.make_aware(timestamp),
+                    timestamp=timestamp if timezone.is_aware(timestamp) else timezone.make_aware(timestamp),
                     status=status,
                     reason=''  # Default reason blank
                 )

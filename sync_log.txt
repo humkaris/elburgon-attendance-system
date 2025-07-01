@@ -1,0 +1,76 @@
+Running at Tue 07/01/2025 12:37:01.81 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 2 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 11:35 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '1579069136329787281', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-01 12:37:08'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 01/07/2025 at 12:32 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '8339931125838726947', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-01 12:37:10'}
+Successfully sent 2 messages.
+Done at 12:37:10.57 
+Running at Tue 07/01/2025 12:42:01.79 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 1 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 12:41 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '6517680453893967073', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-01 12:42:08'}
+Successfully sent 1 messages.
+Done at 12:42:08.42 
+Running at Tue 07/01/2025 12:47:01.84 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 12:47:07.88 
+Running at Tue 07/01/2025 12:52:01.84 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 12:52:07.41 
+Running at Tue 07/01/2025 12:57:02.01 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 1 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 01/07/2025 at 12:52 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '2810919785278949109', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-01 12:57:08'}
+Successfully sent 1 messages.
+Done at 12:57:08.78 
+Running at Tue 07/01/2025 13:02:02.08 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 1 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 12:59 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '581403561188148632', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-01 13:02:08'}
+Successfully sent 1 messages.
+Done at 13:02:09.06 
+Running at Tue 07/01/2025 13:07:01.92 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 13:07:06.88 
+Running at Tue 07/01/2025 13:12:01.91 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 13:12:07.83 
+Running at Tue 07/01/2025 13:17:01.99 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 13:17:07.10 
+Running at Tue 07/01/2025 13:22:01.96 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 13:22:07.79 
+Running at Tue 07/01/2025 13:27:01.98 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 13:27:09.81 

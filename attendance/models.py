@@ -38,8 +38,13 @@ class AttendanceLog(models.Model):
     status = models.CharField(max_length=10, choices=[('in', 'IN'), ('out', 'OUT')])
     reason = models.CharField(max_length=20, choices=REASON_CHOICES, null=True, blank=True)
     synced = models.BooleanField(default=False)
+    unique_id = models.CharField(max_length=100, unique=True, blank=True)
 
-    unique_id = models.CharField(max_length=100, unique=True, null=True, blank=True)  # NEW FIELD
+    def save(self, *args, **kwargs):
+        # Auto-generate unique_id if missing
+        if not self.unique_id and self.student and self.timestamp and self.status:
+            self.unique_id = f"{self.student.admission_number}_{self.timestamp.isoformat()}_{self.status.lower()}"
+        super().save(*args, **kwargs)
 
     def __str__(self):
         return f"{self.student} - {self.status} @ {self.timestamp}"
@@ -55,3 +60,13 @@ class DefaultClockOutReason(models.Model):
     def __str__(self):
         return f"{self.date}: {self.get_reason_display()}"
 
+class SMSLog(models.Model):
+    student = models.ForeignKey(Student, on_delete=models.SET_NULL, null=True, blank=True)
+    phone_number = models.CharField(max_length=20)
+    message = models.TextField()
+    sent_at = models.DateTimeField(auto_now_add=True)
+    success = models.BooleanField(default=False)
+    response = models.JSONField(null=True, blank=True)
+
+    def __str__(self):
+        return f"SMS to {self.phone_number} on {self.sent_at.strftime('%d/%m/%Y %H:%M')}"

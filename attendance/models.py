@@ -24,19 +24,34 @@ class Student(models.Model):
 
 
 class AttendanceLog(models.Model):
+    REASON_CHOICES = [
+        ('fees', 'School Fees'),
+        ('holiday', 'Holiday'),
+        ('sick', 'Sick Leave'),
+        ('midterm', 'Mid-Term'),
+        ('discipline', 'Discipline'),
+        ('health', 'Health Checkup'),
+    ]
+
     student = models.ForeignKey(Student, on_delete=models.CASCADE)
     timestamp = models.DateTimeField()
-    status = models.CharField(
-        max_length=10,
-        choices=[('IN', 'Clock In'), ('OUT', 'Clock Out')]
-    )
-    reason = models.CharField(
-        max_length=255,
-        blank=True,
-        null=True,
-        help_text="Required for Clock Out: e.g., Health, Fees, Holiday, Discipline"
-    )
-    synced = models.BooleanField(default=False)  # Has SMS been sent?
+    status = models.CharField(max_length=10, choices=[('in', 'IN'), ('out', 'OUT')])
+    reason = models.CharField(max_length=20, choices=REASON_CHOICES, null=True, blank=True)
+    synced = models.BooleanField(default=False)
+
+    unique_id = models.CharField(max_length=100, unique=True, null=True, blank=True)  # NEW FIELD
 
     def __str__(self):
         return f"{self.student} - {self.status} @ {self.timestamp}"
+
+
+class DefaultClockOutReason(models.Model):
+    date = models.DateField(unique=True)
+    reason = models.CharField(
+        max_length=20,
+        choices=AttendanceLog.REASON_CHOICES
+    )
+
+    def __str__(self):
+        return f"{self.date}: {self.get_reason_display()}"
+

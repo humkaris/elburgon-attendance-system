@@ -16,17 +16,17 @@ class Command(BaseCommand):  # <--- THIS must be named exactly `Command`
             time_str = timezone.localtime(log.timestamp).strftime("%I:%M %p")
             date_str = timezone.localtime(log.timestamp).strftime("%d/%m/%Y")
 
-            if log.status == "IN":
-                message = (
-                    f"Dear parent, your child {student.full_name} has arrived at school "
-                    f"on {date_str} at {time_str}. Elburgon Senior School"
-                )
-            else:
-                reason_text = f" for {log.reason}" if log.reason else ""
+            if log.status.lower() == 'out':
+                reason_part = f" for {log.get_reason_display()}" if log.reason else ""
                 message = (
                     f"Dear parent, your child {student.full_name} adm {student.admission_number} "
-                    f"has left school{reason_text} on {date_str} at {time_str}. "
+                    f"has left school{reason_part} on {date_str} at {time_str}. "
                     f"Elburgon Senior School"
+                )
+            else:
+                message = (
+                    f"Dear parent, your child {student.full_name} has arrived at school on "
+                    f"{date_str} at {time_str}. Elburgon Senior School"
                 )
 
             print(f"Sending to {phone}: {message}")

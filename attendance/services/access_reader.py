@@ -1,9 +1,10 @@
 import pyodbc
 import datetime
+import sys
 from django.utils import timezone
 from django.utils.timezone import make_aware
-from attendance.models import Student, AttendanceLog
-import sys
+from attendance.models import Student, AttendanceLog, DefaultClockOutReason
+
 print(sys.path)
 print("Module path:", __name__)
 
@@ -28,25 +29,38 @@ def fetch_access_logs():
     count = 0
     for row in cursor.fetchall():
         admission_number = str(row.Badgenumber).strip()
-        timestamp = make_aware(row.CHECKTIME)
-        status = 'IN' if row.CHECKTYPE.upper() == 'I' else 'OUT'
+        timestamp = row.CHECKTIME
+        if not timezone.is_aware(timestamp):
+            timestamp = make_aware(timestamp)
+
+        status = 'in' if row.CHECKTYPE.upper() == 'I' else 'out'
 
         try:
             student = Student.objects.get(admission_number=admission_number)
 
-            # Avoid duplicate logs
-            if not AttendanceLog.objects.filter(student=student, timestamp=timestamp, status=status).exists():
+            # Create a unique identifier per log
+            unique_id = f"{student.admission_number}_{timestamp.isoformat()}_{status}"
+
+            # Avoid duplicate logs using unique_id
+            if not AttendanceLog.objects.filter(unique_id=unique_id).exists():
+                # Apply default clock-out reason if applicable
+                reason = None
+                if status == 'out':
+                    default = DefaultClockOutReason.objects.filter(date=timestamp.date()).first()
+                    if default:
+                        reason = default.reason
+
                 AttendanceLog.objects.create(
                     student=student,
-                    timestamp=timestamp if timezone.is_aware(timestamp) else timezone.make_aware(timestamp),
+                    timestamp=timestamp,
                     status=status,
-                    reason=''  # Default reason blank
+                    reason=reason,
+                    unique_id=unique_id
                 )
                 count += 1
 
         except Student.DoesNotExist:
-            # Log or skip if no student found
-            continue
+            continue  # Ignore unknown badge numbers
 
     conn.close()
     return count

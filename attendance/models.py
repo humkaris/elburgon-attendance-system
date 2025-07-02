@@ -64,6 +64,7 @@ class SMSLog(models.Model):
     student = models.ForeignKey(Student, on_delete=models.SET_NULL, null=True, blank=True)
     phone_number = models.CharField(max_length=20)
     message = models.TextField()
+    log_time = models.DateTimeField(null=True, blank=True)
     sent_at = models.DateTimeField(auto_now_add=True)
     success = models.BooleanField(default=False)
     response = models.JSONField(null=True, blank=True)

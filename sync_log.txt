@@ -74,3 +74,1313 @@ Module path: attendance.services.access_reader
 Imported 0 new attendance logs
 Successfully sent 0 messages.
 Done at 13:27:09.81 
+Running at Tue 07/01/2025 13:32:01.97 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 13:32:08.77 
+Running at Tue 07/01/2025 13:37:01.89 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 1 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 01:36 PM. Elburgon Senior School
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\base.py", line 416, in run_from_argv
+    self.execute(*args, **cmd_options)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\base.py", line 460, in execute
+    output = self.handle(*args, **options)
+  File "D:\elburgon_attendance\attendance\management\commands\send_attendance_sms.py", line 33, in handle
+    success = send_sms(phone, message, students=student)
+TypeError: send_sms() got an unexpected keyword argument 'students'. Did you mean 'student'?
+Done at 13:37:06.81 
+Running at Tue 07/01/2025 13:42:01.92 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 01:36 PM. Elburgon Senior School
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\base.py", line 416, in run_from_argv
+    self.execute(*args, **cmd_options)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\base.py", line 460, in execute
+    output = self.handle(*args, **options)
+  File "D:\elburgon_attendance\attendance\management\commands\send_attendance_sms.py", line 33, in handle
+    success = send_sms(phone, message, students=student)
+TypeError: send_sms() got an unexpected keyword argument 'students'. Did you mean 'student'?
+Done at 13:42:06.66 
+Running at Tue 07/01/2025 13:47:01.91 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 1 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 01:36 PM. Elburgon Senior School
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\base.py", line 416, in run_from_argv
+    self.execute(*args, **cmd_options)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\base.py", line 460, in execute
+    output = self.handle(*args, **options)
+  File "D:\elburgon_attendance\attendance\management\commands\send_attendance_sms.py", line 33, in handle
+    success = send_sms(phone, message, students=student)
+TypeError: send_sms() got an unexpected keyword argument 'students'. Did you mean 'student'?
+Done at 13:47:06.75 
+Running at Tue 07/01/2025 13:52:02.01 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 01:36 PM. Elburgon Senior School
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\base.py", line 416, in run_from_argv
+    self.execute(*args, **cmd_options)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\base.py", line 460, in execute
+    output = self.handle(*args, **options)
+  File "D:\elburgon_attendance\attendance\management\commands\send_attendance_sms.py", line 33, in handle
+    success = send_sms(phone, message, students=student)
+TypeError: send_sms() got an unexpected keyword argument 'students'. Did you mean 'student'?
+Done at 13:52:07.89 
+Running at Tue 07/01/2025 13:57:01.90 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 01:36 PM. Elburgon Senior School
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 436, in execute
+    self.fetch_command(subcommand).run_from_argv(self.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\base.py", line 416, in run_from_argv
+    self.execute(*args, **cmd_options)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\base.py", line 460, in execute
+    output = self.handle(*args, **options)
+  File "D:\elburgon_attendance\attendance\management\commands\send_attendance_sms.py", line 33, in handle
+    success = send_sms(phone, message, students=student)
+TypeError: send_sms() got an unexpected keyword argument 'students'. Did you mean 'student'?
+Done at 13:57:07.89 
+Running at Tue 07/01/2025 14:02:01.88 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 14:02:04.88 
+Running at Tue 07/01/2025 15:42:10.66 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 15:42:14.37 
+Running at Tue 07/01/2025 15:47:01.88 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 15:47:04.43 
+Running at Tue 07/01/2025 15:52:01.89 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 15:52:04.93 
+Running at Tue 07/01/2025 15:57:01.95 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 15:57:04.44 
+Running at Tue 07/01/2025 16:02:02.27 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 16:02:05.23 
+Running at Tue 07/01/2025 16:07:02.21 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 16:07:04.70 
+Running at Tue 07/01/2025 20:35:20.91 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 20:35:22.40 
+Running at Tue 07/01/2025 20:37:01.71 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 20:37:03.78 
+Running at Tue 07/01/2025 20:42:01.72 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 20:42:03.30 
+Running at Tue 07/01/2025 20:47:01.70 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 20:47:03.22 
+Running at Tue 07/01/2025 20:52:01.68 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 20:52:02.98 
+Running at Tue 07/01/2025 20:57:01.72 
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Traceback (most recent call last):
+  File "D:\elburgon_attendance\manage.py", line 22, in <module>
+    main()
+    ~~~~^^
+  File "D:\elburgon_attendance\manage.py", line 18, in main
+    execute_from_command_line(sys.argv)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 442, in execute_from_command_line
+    utility.execute()
+    ~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\core\management\__init__.py", line 416, in execute
+    django.setup()
+    ~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\__init__.py", line 24, in setup
+    apps.populate(settings.INSTALLED_APPS)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\registry.py", line 116, in populate
+    app_config.import_models()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "D:\elburgon_attendance\venv\Lib\site-packages\django\apps\config.py", line 269, in import_models
+    self.models_module = import_module(models_module_name)
+                         ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\BrecciaTech\AppData\Local\Programs\Python\Python313\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1026, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "D:\elburgon_attendance\attendance\models.py", line 3, in <module>
+    from attendance.models import SMSLog
+ImportError: cannot import name 'SMSLog' from partially initialized module 'attendance.models' (most likely due to a circular import) (D:\elburgon_attendance\attendance\models.py)
+Done at 20:57:03.23 
+Running at Tue 07/01/2025 23:55:32.82 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 2 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 01:36 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '5270142586363856528', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-01 23:55:41'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 01/07/2025 at 01:44 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '2872044911876194705', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-01 23:55:42'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 01:59 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '2643167929301224993', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-01 23:55:43'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 01/07/2025 at 08:58 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '6703849272987435931', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-01 23:55:44'}
+Successfully sent 4 messages.
+Done at 23:55:45.40 
+Running at Tue 07/01/2025 23:57:01.65 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 23:57:03.79 
+Running at Wed 07/02/2025  0:02:01.95 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  0:02:06.19 
+Running at Wed 07/02/2025  0:07:01.71 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  0:07:04.28 
+Running at Wed 07/02/2025  0:12:01.89 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  0:12:10.45 
+Running at Wed 07/02/2025  0:17:01.71 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  0:17:04.70 
+Running at Wed 07/02/2025  0:22:01.70 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  0:22:04.58 
+Running at Wed 07/02/2025  0:27:01.69 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  0:27:04.62 
+Running at Wed 07/02/2025  0:32:01.74 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  0:32:05.07 
+Running at Wed 07/02/2025  0:37:01.79 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  0:37:04.34 
+Running at Wed 07/02/2025  0:42:01.73 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  0:42:04.74 
+Running at Wed 07/02/2025  3:44:06.78 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  9:22:26.12 
+Running at Wed 07/02/2025  9:22:26.25 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  9:22:40.46 
+Running at Wed 07/02/2025  9:27:01.91 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  9:27:07.13 
+Running at Wed 07/02/2025  9:32:01.99 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  9:32:08.46 
+Running at Wed 07/02/2025  9:37:02.13 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 1 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 02/07/2025 at 09:32 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '984959127043917721', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 09:37:08'}
+Successfully sent 1 messages.
+Done at  9:37:09.46 
+Running at Wed 07/02/2025  9:42:01.91 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 1 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school on 02/07/2025 at 09:37 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '2284085926012603594', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 09:42:08'}
+Successfully sent 1 messages.
+Done at  9:42:09.67 
+Running at Wed 07/02/2025  9:47:02.00 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  9:47:07.82 
+Running at Wed 07/02/2025  9:52:02.03 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  9:52:08.37 
+Running at Wed 07/02/2025  9:57:01.91 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at  9:57:06.81 
+Running at Wed 07/02/2025 10:02:01.94 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 10:02:08.79 
+Running at Wed 07/02/2025 10:07:01.91 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 30 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 05/06/2025 at 12:55 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '5200901559996795581', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:06'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 27/06/2025 at 01:56 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '8546093344130089660', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:08'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Mid-Term on 27/06/2025 at 01:58 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '7450536557052906721', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:09'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 27/06/2025 at 03:29 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '4614420885749058435', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:11'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 26/06/2025 at 03:57 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '5219122046802413677', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:12'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school on 26/06/2025 at 05:08 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '6752024493432913985', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:14'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Mid-Term on 27/06/2025 at 05:08 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '4717967883147757927', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:15'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 27/06/2025 at 06:08 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '4732756746227239900', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:17'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Mid-Term on 27/06/2025 at 07:08 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '3882240277560575967', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:18'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 28/06/2025 at 08:08 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '878657131070311568', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:19'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Holiday on 28/06/2025 at 12:08 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '8284712704049496517', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:20'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 27/06/2025 at 05:56 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '1090242985367126803', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:22'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Mid-Term on 27/06/2025 at 09:56 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '633328786300881717', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:23'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 28/06/2025 at 10:07 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '7908190531152465256', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:24'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Holiday on 28/06/2025 at 04:07 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '7420220605203563882', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:25'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 01/07/2025 at 10:39 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '1703057537050103499', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:27'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 10:59 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '581784802575927509', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:28'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 01/07/2025 at 11:29 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '2608363700207700245', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:29'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 11:35 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '6945557698516699059', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:30'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 01/07/2025 at 12:32 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '2433554017955958278', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:32'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 12:41 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '9196598803080628430', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:33'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 01/07/2025 at 12:52 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '6930464323880373106', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:34'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 12:59 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '7766935340728142014', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:35'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 01:36 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '7753948934902075360', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:36'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 01/07/2025 at 01:44 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '6443413930048046989', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:37'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school for Discipline on 01/07/2025 at 01:59 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '8229643970548944654', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:38'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 01/07/2025 at 08:58 PM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '584483785050573702', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:39'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 02/07/2025 at 09:32 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '7097414415311914859', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:40'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school on 02/07/2025 at 09:37 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '277158440939046653', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:42'}
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 02/07/2025 at 10:03 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '5213677387468325344', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:07:43'}
+Successfully sent 30 messages.
+Done at 10:07:44.88 
+Running at Wed 07/02/2025 10:12:02.11 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 1 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI has arrived at school on 02/07/2025 at 10:09 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '3345911958276951609', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:12:08'}
+Successfully sent 1 messages.
+Done at 10:12:09.55 
+Running at Wed 07/02/2025 10:17:02.04 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 10:17:09.18 
+Running at Wed 07/02/2025 10:22:01.94 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 10:22:06.64 
+Running at Wed 07/02/2025 10:27:01.90 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 1 new attendance logs
+Sending to 0715679643: Dear parent, your child HUMPHREY KARIUKI adm 8726 has left school on 02/07/2025 at 10:23 AM. Elburgon Senior School
+SMS response: {'status': 'success', 'mobile': '254715679643', 'invalidMobile': '', 'transactionId': '5379070612811500772', 'statusCode': '200', 'reason': 'success', 'msgId': '', 'requestTime': '2025-07-02 10:27:07'}
+Successfully sent 1 messages.
+Done at 10:27:08.31 
+Running at Wed 07/02/2025 10:32:02.29 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 10:32:08.36 
+Running at Wed 07/02/2025 10:37:01.96 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 10:37:08.41 
+Running at Wed 07/02/2025 10:42:01.82 
+Successfully sent 0 messages.
+Done at 10:42:05.65 
+Running at Wed 07/02/2025 10:47:02.00 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 10:47:08.89 
+Running at Wed 07/02/2025 10:52:02.02 
+['D:\\elburgon_attendance', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\DLLs', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313\\Lib', 'C:\\Users\\BrecciaTech\\AppData\\Local\\Programs\\Python\\Python313', 'D:\\elburgon_attendance\\venv', 'D:\\elburgon_attendance\\venv\\Lib\\site-packages']
+Module path: attendance.services.access_reader
+Imported 0 new attendance logs
+Successfully sent 0 messages.
+Done at 10:52:07.54 

@@ -30,7 +30,7 @@ class Command(BaseCommand):  # <--- THIS must be named exactly `Command`
                 )
 
             print(f"Sending to {phone}: {message}")
-            success = send_sms(phone, message)
+            success = send_sms(phone, message, student, log.timestamp)
 
             if success:
                 log.synced = True

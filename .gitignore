@@ -1,1 +1,23 @@
+# Django
+*.pyc
+__pycache__/
+db.sqlite3
+.env
+*.log
+
+# VSCode / PyCharm
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Virtual environments
 venv/
+env/
+
+# Migrations (optional if you want a clean repo)
+*/migrations/*.pyc
+*/migrations/__pycache__/
+

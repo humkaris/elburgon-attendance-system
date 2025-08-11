@@ -16,8 +16,8 @@ def send_sms(phone_number, message, student=None, log_time=None):
     
     base_url = "http://smsportal.hostpinnacle.co.ke/SMSApi/send"
     params = {
-        "userid": "Breccia",
-        "password": "Mjomba2020",
+        "userid": "B******",
+        "password": "*********",
         "sendMethod": "quick",
         "senderid": "BrecciaTech",
         "msgType": "text",
